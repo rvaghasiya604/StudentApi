@@ -3,8 +3,12 @@ const mongoose = require('mongoose');
 const schema = mongoose.Schema({
 
     name:{
-        type:Array,
-        required:true
+        fname:{
+            type:String
+        },
+        lname:{
+            type:String
+        }
     },
 
     ERNO:{
